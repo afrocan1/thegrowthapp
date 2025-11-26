@@ -30,14 +30,14 @@ export const About = () => {
     <div id="about" className="min-h-screen w-screen">
       <div className="relative mb-8 mt-36 flex flex-col items-center gap-5">
         <p className="font-general text-sm uppercase md:text-[10px]">
-          Welcome to Zentry
+          Welcome To The Growth App
         </p>
 
         <AnimatedTitle containerClass="mt-5 !text-black text-center">
-          {
-            "Disc<b>o</b>ver the world&apos;s l<b>a</b>rgest <br /> shared adventure"
-          }
-        </AnimatedTitle>
+  {
+    "Join us <b>o</b>n this journ<b>e</b>y!"
+  }
+</AnimatedTitle>
 
         <div className="about-subtext">
           <p>The Game of Games begins-your life, now an epic MMORPG</p>
