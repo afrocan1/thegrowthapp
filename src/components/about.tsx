@@ -38,6 +38,8 @@ export const About = () => {
     "Join us <b>o</b>n this journ<b>e</b>y!"
   }
 </AnimatedTitle>
+        </div>
+      </div>
 
 <div className="about-subtext">
   <p>
