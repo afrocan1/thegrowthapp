@@ -40,7 +40,7 @@ export const About = () => {
           <p>Building confidence, independence, and lasting growth together</p>
         </div>
       </div>
-      <div className="h-dvh w-screen mt-20 mb-32" id="clip">
+      <div className="h-dvh w-screen mt-20 mb-19" id="clip">
         <div className="mask-clip-path about-image">
           <img
             src="/img/about.webp"
