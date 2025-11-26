@@ -1,7 +1,6 @@
 import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/all";
-
 import { AnimatedTitle } from "./animated-title";
 
 gsap.registerPlugin(ScrollTrigger);
@@ -18,7 +17,6 @@ export const About = () => {
         pinSpacing: true,
       },
     });
-
     clipAnimation.to(".mask-clip-path", {
       width: "100vw",
       height: "100vh",
@@ -32,23 +30,20 @@ export const About = () => {
         <p className="font-general text-sm uppercase md:text-[10px]">
           Welcome To The Growth App
         </p>
-
         <AnimatedTitle containerClass="mt-5 !text-black text-center">
-  {
-    "Join us <b>o</b>n this journ<b>e</b>y!"
-  }
-</AnimatedTitle>
-
-<div className="about-subtext">
-  <p>
-    By connecting people with the right support, resources, and opportunities, 
-    we help build stronger foundations for a fresh start—fostering confidence, 
-    independence, and lasting growth every step of the way.
-  </p>
-</div>
-</div>
-
-      <div className="h-dvh w-screen" id="clip">
+          {
+            "Join us <b>o</b>n this journ<b>e</b>y!"
+          }
+        </AnimatedTitle>
+        <div className="about-subtext max-w-3xl mx-auto px-6 mb-16">
+          <p>
+            By connecting people with the right support, resources, and opportunities, 
+            we help build stronger foundations for a fresh start—fostering confidence, 
+            independence, and lasting growth every step of the way.
+          </p>
+        </div>
+      </div>
+      <div className="h-dvh w-screen mt-20" id="clip">
         <div className="mask-clip-path about-image">
           <img
             src="/img/about.webp"
