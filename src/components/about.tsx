@@ -35,7 +35,7 @@ export const About = () => {
             "Join us <b>o</b>n this journ<b>e</b>y!"
           }
         </AnimatedTitle>
-        <div className="about-subtext mt-5">
+        <div className="about-subtext mt-10">
           <p>Empowering fresh starts through connection and support</p>
           <p>Building confidence, independence, and lasting growth together</p>
         </div>
