@@ -39,10 +39,10 @@ export const About = () => {
   }
 </AnimatedTitle>
 
-<div className="about-subtext mb-20">
+<div className="about-subtext">
   <p>
-    By connecting people with the right support, resources, and opportunities,
-    we help build stronger foundations for a fresh start—fostering confidence,
+    By connecting people with the right support, resources, and opportunities, 
+    we help build stronger foundations for a fresh start—fostering confidence, 
     independence, and lasting growth every step of the way.
   </p>
 </div>
