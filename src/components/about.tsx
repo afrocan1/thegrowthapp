@@ -35,12 +35,9 @@ export const About = () => {
             "Join us <b>o</b>n this journ<b>e</b>y!"
           }
         </AnimatedTitle>
-        <div className="about-subtext max-w-3xl mx-auto px-6 mb-16">
-          <p>
-            By connecting people with the right support, resources, and opportunities, 
-            we help build stronger foundations for a fresh start—fostering confidence, 
-            independence, and lasting growth every step of the way.
-          </p>
+        <div className="about-subtext">
+          <p>Empowering fresh starts through connection and support</p>
+          <p>Building confidence, independence, and lasting growth together</p>
         </div>
       </div>
       <div className="h-dvh w-screen mt-20" id="clip">
