@@ -35,12 +35,12 @@ export const About = () => {
             "Join us <b>o</b>n this journ<b>e</b>y!"
           }
         </AnimatedTitle>
-        <div className="about-subtext mt-5">
+        <div className="about-subtext mt-5 mb-32">
           <p>Empowering fresh starts through connection and support</p>
           <p>Building confidence, independence, and lasting growth together</p>
         </div>
       </div>
-      <div className="h-dvh w-screen mt-20 mb-32" id="clip">
+      <div className="h-dvh w-screen" id="clip">
         <div className="mask-clip-path about-image">
           <img
             src="/img/about.webp"
