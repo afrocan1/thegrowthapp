@@ -39,11 +39,14 @@ export const About = () => {
   }
 </AnimatedTitle>
 
-        <div className="about-subtext">
-          <p>The Game of Games begins-your life, now an epic MMORPG</p>
-          <p>Zentry unites every player from countless games and platforms</p>
-        </div>
-      </div>
+<div className="about-subtext">
+  <p>
+    By connecting people with the right support, resources, and opportunities, 
+    we help build stronger foundations for a fresh start—fostering confidence, 
+    independence, and lasting growth every step of the way.
+  </p>
+</div>
+</div>
 
       <div className="h-dvh w-screen" id="clip">
         <div className="mask-clip-path about-image">
